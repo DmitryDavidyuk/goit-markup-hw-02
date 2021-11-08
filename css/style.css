@@ -63,19 +63,17 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--second-colr-text);
 }
 
 .preview-btn {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 187% */
-
-    display: flex;
+    line-height: 1.87;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
-    color: #FFFFFF;
+    color: var(--second-colr-text);
+    cursor: pointer;
+    background-color: var(--accent-color);
 }
