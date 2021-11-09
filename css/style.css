@@ -93,12 +93,14 @@ body {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
-    background-color: #F5F4FA;
+    color: var(--second-colr-text);
+    background-color: var(--accent-color);
+    border: none;
 }
 
-.preview-btn:hover {
-    background-color: var(--accent-color);
+.preview-btn:hover, :focus,
+.filtr-btn:hover, :focus {
+    background-color: #118CE8;
     color: var(--second-colr-text);
 }
 
@@ -110,11 +112,11 @@ body {
     line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--second-colr-text);
+    color: var(--title-text-color);
     cursor: pointer;
-    background-color: var(--accent-color);
-}
-
+    background-color:#F5F4FA;
+    border: none;
+    }
 
 
 .title {
