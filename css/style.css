@@ -5,63 +5,23 @@
     --prymary-white-color: #000000;
     --second-colr-text: #ffffff;
 }
-p, h1, h2, h3, h4. h5, h6 {
-    margin: 0;
-}
 
 body {
     font-family: roboto, sans-serif;
     color: var(--prymary-text-color);
-    margin: 0;
+;
 }
 
-/* ------------------------класы для сброса---------------------- */
+/* класы для сброса */
 .list {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .link {
     text-decoration: none;
 }
 
-.container {
-    margin: 0 auto;
-    width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-
-/* ------шапка сайта------ */
-.header-container {
-    display: flex;
-    align-items: center;
-    padding: 25px;
-}
-
-.header {
-    margin: 0;
-}
-.header-navigation {
-    display: flex;
-    align-items: center;
-}
-.header-list {
-    display: flex;
-    margin-left: auto;
-}
-.header-logo {
-    margin-right: 93px;
-}
-
-.header-item:not(:last-child), 
-.header-mail {
-    margin-right: 50px;
-}
-
-
+/* logo */
 .header-logo,
 .footer-logo {
     font-family: Raleway;
@@ -79,6 +39,7 @@ body {
     color: var(--accent-color);
 }
 
+/* navigation */
 .header-link, .header-mail, .header-tel {
     font-weight: 500px;
     Font-size: 14px;
@@ -112,17 +73,11 @@ body {
 }
 
 
-/* ------------------------preview----------------------------------*/
+/* preview */
 .preview {
     background-color: #2F303A;
-    height: 600px;
-    
 }
 .preview-text {
-    margin: 0 0;
-
-
-
     font-weight: 900px;
     font-size: 44px;
     line-height: 1.36;
@@ -150,7 +105,7 @@ body {
 }
 
 
-/* ----------------стиль для страницы портфолио ----------------*/
+/* стиль для страницы портфолио */
 .filtr-btn {
     font-weight: 700;
     font-size: 16px;
@@ -207,8 +162,6 @@ body {
     letter-spacing: 0.03em;
     }
 
-
-    /* ------------------подавл сайта ---------------------------*/
 .footer {
     background-color: #2F303A;;
 }
